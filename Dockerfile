@@ -3,4 +3,6 @@ MAINTAINER Justin Payne, justin.payne@fda.hhs.gov
 
 RUN apt-get update && apt-get -y install \
     python3 \
+    python3-dev \
+    python-pip \
   && apt-get -y clean
